@@ -174,40 +174,37 @@ function text() {
     ctx.font = "30px Arial";
 
     if (x < 150) {
-    ctx.fillText("전체화면 후 새로고침 하십시오.", 50, tp);
+    ctx.fillText("Full screen, and press F5", 50, tp);
     }
     if (x < 150) {
-        ctx.fillText("방향키 →를 눌러 앞으로 가십시오.", 50, tp+50);
+        ctx.fillText("Press your arrow key to go ahead", 50, tp+50);
     }
 
+    ctx.font = "30px Vernada";
     ctx.fillStyle = "black";
     if (x > 160 && x < 1100) {
-        ctx.fillText("낙타는 사막을 걷고 있습니다.", 50, tp);
+        ctx.fillText("A camel is walking on a desert.", 50, tp);
     }
 
     if (x > 350 && x < 1100) {
-        ctx.fillText("황금빛 피라미드와 붉은 태양이 보이는군요.", 50, tp+50);
+        ctx.fillText("There is a golden pyramid, and the red Sun.", 50, tp+50);
     }
 
     if (x > 600 && x < 1100) {
-        ctx.fillText("낙타는 피라미드 안에서 무엇을 발견하게 될까요?", 50, tp+100);
+        ctx.fillText("What would the camel find inside the pyramid?", 50, tp+100);
     }
     ctx.fillStyle = "white";
-    if (x > 1255) {
-        ctx.fillText("!!!", 50, tp);
-    }
-
-    ctx.font = "50px Arial";
+    ctx.font = "50px Vernada";
     if (x > 1255 && x < 1770) {
         ctx.fillText("!!!", 1400, 650);
     }
 
-    ctx.font = "30px Arial";
+    ctx.font = "30px Vernada";
     if (x > 1500) {
-        ctx.fillText("피라미드는 사실 삼각형일 뿐이었고, 태양은 그저 원일 뿐이었습니다.", 50, tp+50);
+        ctx.fillText("Actually, the pyramid was just a triangle, and the Sun a circle.", 50, tp);
     }
     if (x > 1770) {
-        ctx.fillText("그리고 낙타 자신도 모니터에 갇힌 평면도형이었음을 깨닫고 미쳐 날뜁니다.", 50, tp+100);
+        ctx.fillText("Finally the camel have realized that he is also just a photo on a screen.", 50, tp+50);
     }
 }
 
