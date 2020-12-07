@@ -204,7 +204,7 @@ function text() {
         ctx.fillText("Actually, the pyramid was just a triangle, and the Sun a circle.", 50, tp);
     }
     if (x > 1770) {
-        ctx.fillText("Finally the camel have realized that he is also just a photo on a screen.", 50, tp+50);
+        ctx.fillText("Finally the camel has realized that he is also just a photo on a screen.", 50, tp+50);
     }
 }
 
